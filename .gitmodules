@@ -1,0 +1,3 @@
+[submodule "astroid-plugin-avatar"]
+	path = astroid-plugin-avatar
+	url = https://github.com/astroidmail/astroid-plugin-avatar.git
