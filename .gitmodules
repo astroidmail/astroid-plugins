@@ -1,3 +1,6 @@
 [submodule "astroid-plugin-avatar"]
 	path = astroid-plugin-avatar
 	url = https://github.com/astroidmail/astroid-plugin-avatar.git
+[submodule "astroid-plugin-hsv-tagcolor"]
+	path = astroid-plugin-hsv-tagcolor
+	url = git@github.com:astroidmail/astroid-plugin-hsv-tagcolor.git
