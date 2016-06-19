@@ -4,3 +4,6 @@
 [submodule "astroid-plugin-hsv-tagcolor"]
 	path = astroid-plugin-hsv-tagcolor
 	url = git@github.com:astroidmail/astroid-plugin-hsv-tagcolor.git
+[submodule "astroid-plugin-hls-hsv-tagcolor"]
+	path = astroid-plugin-hls-hsv-tagcolor
+	url = https://github.com/astroidmail/astroid-plugin-hls-hsv-tagcolor
