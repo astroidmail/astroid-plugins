@@ -1,5 +1,5 @@
 [Plugin]
-Module=tagformat
+Module=threadindex
 Depends=
 Loader=python3
 Name=tagformat

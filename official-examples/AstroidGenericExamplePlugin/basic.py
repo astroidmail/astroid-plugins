@@ -4,6 +4,8 @@ from gi.repository import GObject, Astroid
 
 print ("basic: plugin loading..")
 
+# this one doesn't do anything at the moment
+
 class BasicPlugin (GObject.Object, Astroid.Activatable):
   object = GObject.property (type=GObject.Object)
 
@@ -13,23 +15,4 @@ class BasicPlugin (GObject.Object, Astroid.Activatable):
   def do_deactivate (self):
     print ('basic: deactivate')
 
-  def do_ask (self, n):
-    print (repr(n))
-    print ("got ask:", n)
-
-    from IPython import embed
-    # embed ()
-
-
-    n = n.replace ("hello", "asdf")
-    print (n)
-
-    return n
-
-  def do_get_avatar_uri (self, email, tpe, size):
-    print ("getting avatar uri", email, tpe, size)
-    return "https://assets-cdn.github.com/images/modules/site/infinity-ill-small.png"
-
-  def do_get_allowed_uris (self):
-    return ["asdf", "https://assets-cdn.github.com/images/modules/site/"]
 
