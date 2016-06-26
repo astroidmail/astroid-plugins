@@ -19,7 +19,7 @@ class TagFormatPlugin (GObject.Object, Astroid.ThreadIndexActivatable):
   def do_deactivate (self):
     print ('tagformat: deactivate')
 
-  def do_format_tags (self, background, tags):
+  def do_format_tags (self, background, tags, selected):
     # background: color of canvas the tags will be shown on
     # tags:       a list of tags
     #
