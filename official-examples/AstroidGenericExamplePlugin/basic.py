@@ -16,3 +16,7 @@ class BasicPlugin (GObject.Object, Astroid.Activatable):
     print ('basic: deactivate')
 
 
+  def do_get_tag_colors (self, tag, bg):
+    return [ '#000000', '#ffffff0f' ]
+
+
