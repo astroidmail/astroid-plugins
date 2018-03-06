@@ -4,3 +4,6 @@
 [submodule "astroid-plugin-hls-hsv-tagcolor"]
 	path = astroid-plugin-hls-hsv-tagcolor
 	url = https://github.com/astroidmail/astroid-plugin-hls-hsv-tagcolor
+[submodule "astroid-plugin-seccomp"]
+	path = astroid-plugin-seccomp
+	url = https://github.com/astroidmail/astroid-plugin-seccomp
