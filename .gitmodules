@@ -7,3 +7,6 @@
 [submodule "astroid-plugin-seccomp"]
 	path = astroid-plugin-seccomp
 	url = https://github.com/astroidmail/astroid-plugin-seccomp
+[submodule "astroid-syntax-highlight"]
+	path = astroid-syntax-highlight
+	url = https://github.com/astroidmail/astroid-syntax-highlight
